@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background: #333;
+    color: white;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: #f4f4f4;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.card {
+    background: #eee;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .features {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        width: 80%;
+        margin-bottom: 15px;
+    }
+}
