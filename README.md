@@ -26,10 +26,6 @@ The layout adapts to different screen sizes using CSS media queries.
 1. Download or clone the repository
 2. Open `index.html` in your browser
 
-## 📸 Preview
-
-(Add screenshot here)
-
 ## 📌 Future Improvements
 
 - Add animations
